@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>FCC Technical Documentation Page</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<nav id="navbar">
+  <div class="logo"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 327.691 327.691" style="enable-background:new 0 0 327.691 327.691;" xml:space="preserve">
+	<path d="M223.565,51.111C223.565,22.883,200.683,0,172.446,0h-30.667c-28.236,0-51.113,22.883-51.113,51.111v17.953h65.933v14.456
+		l-96.642,0.041c-28.229,0-51.111,22.883-51.111,51.12v30.666c0,28.229,22.883,51.112,51.111,51.112h29.344v-59.006h134.285
+		L223.565,51.111z M117.213,53.661c-4.112,0-7.444-3.332-7.444-7.438c0-4.11,3.332-7.444,7.444-7.444
+		c4.105,0,7.438,3.334,7.438,7.444C124.65,50.329,121.318,53.661,117.213,53.661z"fill="#8e9ea2"/>
+	<path d="M267.734,111.231h-29.344v59.006H104.105l0.021,106.343c0,28.228,22.883,51.111,51.119,51.111h30.667
+		c28.236,0,51.113-22.883,51.113-51.111v-17.953h-65.933v-14.456l96.642-0.041c28.228,0,51.111-22.883,51.111-51.119v-30.667
+		C318.846,134.114,295.963,111.231,267.734,111.231z M210.479,274.03c4.113,0,7.444,3.332,7.444,7.438
+		c0,4.11-3.331,7.444-7.444,7.444c-4.105,0-7.438-3.334-7.438-7.444C203.041,277.362,206.374,274.03,210.479,274.03z" fill="#a29e8e"/>
+    </svg></div>
+  <a href="https://www.python.org/"><header>Python</header></a>
+  <a href="https://docs.python.org/3/contents.html"><h2>Table of Contents:</h2></a>
+  <ul>
+    <a href="https://docs.python.org/3/tutorial/controlflow.html#"><p class="tc-ul">4. More Control Flow Tools</p></a>
+    <li><a href="#4.1._if_Statements" target="_top" class="nav-link">4.1. <span class="header-code">if</span> Statements</a></li>
+    <li><a href="#4.2._for_Statements" target="_top" class="nav-link">4.2. <span class="header-code">for</span> Statements</a></li>
+    <li><a href="#4.3._The_range()_Function" target="_top" class="nav-link">4.3. The <span class="header-code">range()</span> Function</a></li>
+    <li><a href="#4.4._break_and_continue_Statements,_and_else_Clauses_on_Loops" class="nav-link" target="_top">4.4. <span class="header-code">break</span> and <span class="header-code">continue</span> Statements, and <span class="header-code">else</span> Clauses on Loops</a></li>
+    <li><a href="#4.5._pass_Statements" class="nav-link" target="_top">4.5. <span class="header-code">pass</span> Statements</a></li>
+    <li><a href="#4.8._Intermezzo:_Coding_Style" class="nav-link">4.8. Intermezzo: Coding Style</a></li>
+  </ul>
+  <h2>Previous Topic:</h2>
+  <p class="tc">3. An Informal Introduction to Python</>
+  <h2>Next Topic:</h2>
+  <p class="tc">5. Data Structures</p>
+</nav>
+
+<main id="main-doc">
+  <h1>4. More Control Flow Tools</h1>
+  <p>Besides the <a href="https://docs.python.org/3/reference/compound_stmts.html#while" class="h-code">while</a> statement just introduced, Python knows the usual control flow statements known from other languages, with some twists.</p>
+  
+  <section class="main-section" id="4.1._if_Statements">
+    <header>4.1. <span class="header-code">if</span> Statements</header>
+    <p>Perhaps the most well-known statement type is the <a href="https://docs.python.org/3/reference/compound_stmts.html#if" class="h-code">if</a> statement. For example:</p>
+    <code>x = <span class="h-g">int</span>(<span class="h-g">input</span>("<span class="h-b">Please enter an integer:</span> "))
+
+<strong class="h-g">if</strong> x < <span class="h-g">0</span>:
+    x = <span class="h-g">0</span>
+    <span class="h-g">print</span>('<span class="h-b">Negative changed to zero</span>')
+<strong class="h-g">elif</strong> x == <span class="h-g">0</span>:
+    <span class="h-g">print</span>('<span class="h-b">Zero</span>')
+<strong class="h-g">elif</strong> x == <span class="h-g">1</span>:
+    <span class="h-g">print</span>('<span class="h-b">Single</span>')
+<strong class="h-g">else:</strong>
+    <span class="h-g">print</span>('<span class="h-b">More</span>')
+</code>
+      <p>
+        There can be zero or more <a href="https://docs.python.org/3/reference/compound_stmts.html#elif" class="h-code">elif</a> parts, and the <a href="https://docs.python.org/3/reference/compound_stmts.html#else" class="h-code">else</a> part is optional. The keyword ‘ <span class="h-code-pass">elif</span> ’ is short for ‘ <span class="h-code-pass">else if</span> ’, and is useful to avoid excessive indentation. An <span class="h-code-pass">if … elif … elif …</span> sequence is a substitute for the <span class="h-code-pass">switch</span> or <span class="h-code-pass">case</span> statements found in other languages.
+      </p>
+  </section>
+    
+  <section class="main-section" id="4.2._for_Statements">
+    <header>4.2. <span class="header-code">for</span> Statements</header>
+    <p>The <a href="https://docs.python.org/3/reference/compound_stmts.html#for" class="h-code">for</a> statement in Python differs a bit from what you may be used to in C or Pascal. Rather than always iterating over an arithmetic progression of numbers (like in Pascal), or giving the user the ability to define both the iteration step and halting condition (as C), Python’s <span class="h-code-pass">for</span> statement iterates over the items of any sequence (a list or a string), in the order that they appear in the sequence. For example (no pun intended):</p>
+    <code><em class="h-b"># Measure some strings:</em>
+ words = ['<span class="h-b">cat</span>', '<span class="h-b">window</span>', '<span class="h-b">defenestrate</span>']
+ <strong class="h-g">for</strong> w <strong class="h-g">in</strong> words:
+     <span class="h-g">print</span>(w, <span class="h-g">len</span>(w))
+</code>
+    <p>If you need to modify the sequence you are iterating over while inside the loop (for example to duplicate selected items), it is recommended that you first make a copy. Iterating over a sequence does not implicitly make a copy. The slice notation makes this especially convenient:</p>
+    <code><strong class="h-g">for</strong> w <strong class="h-g">in</strong> words[:]:  <em class="h-b"># Loop over a slice copy of the entire list.</em>
+     <span class="h-g"><strong>if</strong> len</span>(w) > <span class="h-g">6</span>:
+         words.insert(<span class="h-g">0</span>, w)
+
+words
+</code>
+    <p>With <span class="h-code-pass">for w in words:</span>, the example would attempt to create an infinite list, inserting <span class="h-code-pass">defenestrate</span> over and over again.</p>
+  </section>
+    
+  <section class="main-section" id="4.3._The_range()_Function">
+    <header>4.3. The <a href="https://docs.python.org/3/library/stdtypes.html#range" class="h-code">range()</a> Function</header>
+    <p>If you do need to iterate over a sequence of numbers, the built-in function <a href="https://docs.python.org/3/library/stdtypes.html#range" class="h-code">range()</a> comes in handy. It generates arithmetic progressions:</p>
+    <code><strong class="h-g">for</strong> i <span class="h-g"><strong>in</strong> range</span>(<span class="h-g">5</span>):
+     <span class="h-g">print</span>(i)
+</code>
+    <p>The given end point is never part of the generated sequence;  <span class="h-code-pass">range(10)</span>  generates 10 values, the legal indices for items of a sequence of length 10. It is possible to let the range start at another number, or to specify a different increment (even negative; sometimes this is called the ‘step’):</p>
+    <code><span class="h-g">range</span>(<span class="h-g">5</span>, <span class="h-g">10</span>)
+   <span class="h-g">5</span>, <span class="h-g">6</span>, <span class="h-g">7</span>, <span class="h-g">8</span>, <span class="h-g">9</span>
+
+<span class="h-g">range</span>(<span class="h-g">0</span>, <span class="h-g">10</span>, <span class="h-g">3</span>)
+   <span class="h-g">0</span>, <span class="h-g">3</span>, <span class="h-g">6</span>, <span class="h-g">9</span>
+
+<span class="h-g">range</span>(<span class="h-g">-10</span>, <span class="h-g">-100</span>, <span class="h-g">-30</span>)
+  <span class="h-g">-10</span>, <span class="h-g">-40</span>, <span class="h-g">-70</span></code>
+    <p>To iterate over the indices of a sequence, you can combine <a href="https://docs.python.org/3/library/stdtypes.html#range" class="h-code">range()</a> and <a href="https://docs.python.org/3/library/functions.html#len" class="h-code">len()</a> as follows:
+</p>
+    <code>a = ['<span class="h-b">Mary</span>', '<span class="h-b">had</span>', '<span class="h-b">a</span>', '<span class="h-b">little</span>', '<span class="h-b">lamb</span>']
+<strong class="h-g">for</strong> i <span class="h-g"><strong>in</strong> range</span>(<span class="h-g">len</span>(a)):
+   <span class="h-g">print</span>(i, a[i])
+</code>
+    <p>In most such cases, however, it is convenient to use the <a href="https://docs.python.org/3/library/functions.html#enumerate" class="h-code">enumerate()</a> function, see <a href="https://docs.python.org/3/tutorial/datastructures.html#tut-loopidioms" class="h-code">Looping Techniques</a>.</p>
+    <p>A strange thing happens if you just print a range:</p>
+    <code><span class="h-g">print</span>(<span class="h-g">range</span>(<span class="h-g">10</span>))</code>
+    <p>In many ways the object returned by <a href="https://docs.python.org/3/library/stdtypes.html#range" class="h-code">range()</a> behaves as if it is a list, but in fact it isn’t. It is an object which returns the successive items of the desired sequence when you iterate over it, but it doesn’t really make the list, thus saving space.
+
+We say such an object is <em>iterable</em>, that is, suitable as a target for functions and constructs that expect something from which they can obtain successive items until the supply is exhausted. We have seen that the <a href="https://docs.python.org/3/reference/compound_stmts.html#for" class="h-code">for</a> statement is such an <em>iterator</em>. The function <a href="https://docs.python.org/3/library/stdtypes.html#list" class="h-code">list()</a> is another; it creates lists from iterables:</p>
+    <code><span class="h-g">list</span>(<span class="h-g">range</span>(<span class="h-g">5</span>))</code>
+    <p>Later we will see more functions that return iterables and take iterables as argument.</p>
+  </section>
+    
+  <section class="main-section" id="4.4._break_and_continue_Statements,_and_else_Clauses_on_Loops">
+    <header>
+      4.4. <span class="header-code">break</span> and <span class="header-code">continue</span> Statements, and <span class="header-code">else</span> Clauses on Loops
+    </header>
+    <p>The <a href="https://docs.python.org/3/reference/simple_stmts.html#break" class="h-code">break</a> statement, like in C, breaks out of the innermost enclosing <a href="https://docs.python.org/3/reference/compound_stmts.html#for" class="h-code">for</a> or <a href="https://docs.python.org/3/reference/compound_stmts.html#while" class="h-code">while</a> loop.</p>
+    <p>Loop statements may have an <span class="h-code-pass">else</span> clause; it is executed when the loop terminates through exhaustion of the list (with <a href="https://docs.python.org/3/reference/compound_stmts.html#for" class="h-code">for</a> ) or when the condition becomes false (with <a href="https://docs.python.org/3/reference/compound_stmts.html#while" class="h-code">while</a>), but not when the loop is terminated by a <a href="https://docs.python.org/3/reference/simple_stmts.html#break" class="h-code">break</a> statement. This is exemplified by the following loop, which searches for prime numbers:</p>
+    <code><strong class="h-g">for</strong> n <span class="h-g"><strong class="h-g">in</strong> range</span>(<span class="h-g">2</span>, <span class="h-g">10</span>):
+     <strong class="h-g">for</strong> x <span class="h-g"><strong>in</strong> range</span>(<span class="h-g">2</span>, n):
+         <strong class="h-g">if</strong> n % x == <span class="h-g">0</span>:
+             <span class="h-g">print</span>(n, <span class="h-b">'equals'</span>, x, <span class="h-b">'*'</span>, n//x)
+             <strong class="h-g">break</strong>
+     <strong class="h-g">else:</strong>
+         <em class="h-b"># loop fell through without finding a factor</em>
+         <span class="h-g">print</span>(n, <span class="h-b">'is a prime number'</span>)
+</code>
+    <p>(Yes, this is the correct code. Look closely: the <span class="h-code-pass">else</span> clause belongs to the <a href="https://docs.python.org/3/reference/compound_stmts.html#for" class="h-code">for</a> loop, <strong>not</strong> the <a href="https://docs.python.org/3/reference/compound_stmts.html#if" class="h-code">if</a> statement.)</p>
+    <p>When used with a loop, the <span class="h-code-pass">else</span> clause has more in common with the <span class="h-code-pass">else</span> clause of a <a href="https://docs.python.org/3/reference/compound_stmts.html#try" class="h-code">try</a> statement than it does that of <a href="https://docs.python.org/3/reference/compound_stmts.html#if" class="h-code">if</a> statements: a <span class="h-code-pass">try</span> statement’s else clause runs when no exception occurs, and a loop’s <span class="h-code-pass">else</span> clause runs when no <span class="h-code-pass">break</span> occurs. For more on the <span class="h-code-pass">try</span> statement and exceptions, see <a href="https://docs.python.org/3/tutorial/errors.html#tut-handling" class="h-code">Handling Exceptions</a>.</p>
+    <p>The <a href="https://docs.python.org/3/reference/simple_stmts.html#continue" class="h-code">continue</a> statement, also borrowed from C, continues with the next iteration of the loop:</p>
+    <code><strong class="h-g">for</strong> num <span class="h-g"><strong>in</strong> range</span>(<span class="h-g">2</span>, <span class="h-g">10</span>):
+     <strong class="h-g">if</strong> num % <span class="h-g">2</span> == <span class="h-g">0</span>:
+         <span class="h-g">print</span>(<span class="h-b">"Found an even number"</span>, num)
+         <strong class="h-g">continue</strong>
+     <span class="h-g">print</span>(<span class="h-b">"Found a number"</span>, num)
+</code>
+  </section>
+    
+  <section class="main-section" id="4.5._pass_Statements">
+    <header>4.5. <span class="header-code">pass</span> Statements</header>
+    <p>The <a href="https://docs.python.org/3/reference/simple_stmts.html#pass" class="h-code">pass</a> statement does nothing. It can be used when a statement is required syntactically but the program requires no action. For example:</p>
+    <code><strong class="h-g">while True:</strong>
+     <strong class="h-g">pass</strong>  <em class="h-b"># Busy-wait for keyboard interrupt (Ctrl+C)</em>
+</code>
+    <p>This is commonly used for creating minimal classes:</p>
+    <code><strong class="h-g">class <span class="h-b">MyEmptyClass:</span>
+     pass</strong>
+</code>
+    <p>Another place <a href="https://docs.python.org/3/reference/simple_stmts.html#pass" class="h-code">pass</a> can be used is as a place-holder for a function or conditional body when you are working on new code, allowing you to keep thinking at a more abstract level. The <span class="h-code-pass">pass</span> is silently ignored:</p>
+    <code><strong class="h-g">def</strong> initlog(*args):
+     <strong class="h-g">pass</strong>   <em class="h-b"># Remember to implement this!</em>
+</code>
+  </section>
+    
+  <section class="main-section" id="4.8._Intermezzo:_Coding_Style">
+    <header>4.8. Intermezzo: Coding Style</header>
+    <p>Now that you are about to write longer, more complex pieces of Python, it is a good time to talk about <em>coding style</em>. Most languages can be written (or more concise, <em>formatted</em> ) in different styles; some are more readable than others. Making it easy for others to read your code is always a good idea, and adopting a nice coding style helps tremendously for that.</p>
+    <p>For Python, <a href="https://www.python.org/dev/peps/pep-0008/" class="h-code">PEP 8</a> has emerged as the style guide that most projects adhere to; it promotes a very readable and eye-pleasing coding style. Every Python developer should read it at some point; here are the most important points extracted for you:</p>
+    <ul class="coding-list">
+      <li>Use 4-space indentation, and no tabs.
+        4 spaces are a good compromise between small indentation (allows greater nesting depth) and large indentation (easier to read). Tabs introduce confusion, and are best left out.
+      </li>
+      <li>Wrap lines so that they don’t exceed 79 characters.
+        This helps users with small displays and makes it possible to have several code files side-by-side on larger displays.
+      </li>
+      <li>Use blank lines to separate functions and classes, and larger blocks of code inside functions.</li>
+      <li>When possible, put comments on a line of their own.</li>
+      <li>Use docstrings.</li>
+      <li>Use spaces around operators and after commas, but not directly inside bracketing constructs: <span class="h-code-pass">a = f(1, 2) + g(3, 4)</span>.</li>
+      <li>Name your classes and functions consistently; the convention is to use <span class="h-code-pass">CamelCase</span> for classes and <span class="h-code-pass">lower_case_with_underscores</span> for functions and methods. Always use <span class="h-code-pass">self</span> as the name for the first method argument (see <a href="https://docs.python.org/3/tutorial/classes.html#tut-firstclasses" class="h-code">A First Look at Classes</a> for more on classes and methods).</li>
+      <li>Don’t use fancy encodings if your code is meant to be used in international environments. Python’s default, UTF-8, or even plain ASCII work best in any case.</li>
+      <li>Likewise, don’t use non-ASCII characters in identifiers if there is only the slightest chance people speaking a different language will read or maintain the code.</li>
+    </ul>
+  </section>
+<hr>
+<div>
+  <h2>Credits</h2>
+  <p>Icons made by <a href="https://www.freepik.com/" title="Freepik" class="h-code">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon" class="h-code">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank" class="h-code">CC 3.0 BY</a></p>
+  <p>All information was supplied from <a href="https://docs.python.org/3/tutorial/controlflow.html#" class="h-code">official Python documentation.</a></p>
+</div>
+    
+</main>
+  
+  
+
+</body>
+
+</html>
