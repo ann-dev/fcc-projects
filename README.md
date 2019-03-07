@@ -2,11 +2,11 @@
 All of my projects for freeCodeCamp Certifications.
 
 ## Responsive Web Design Projects
-- [Tribute Page](https://github.com/ann-dev/freeCodeCamp-Projects/tree/master/fcc-tribute-page)
-- [Survey Form](https://github.com/ann-dev/freeCodeCamp-Projects/tree/master/fcc-survey-form)
-- [Product Landing Page](https://github.com/ann-dev/freeCodeCamp-Projects/tree/master/fcc-product-landing-page)
-- [Technical Documentation Page](https://github.com/ann-dev/freeCodeCamp-Projects/tree/master/fcc-technical-doc-page)
-- [Personal Portfolio Page](https://github.com/ann-dev/freeCodeCamp-Projects/tree/master/fcc-portfolio)
+- [Tribute Page](https://ann-dev.github.io/fcc-projects/fcc-tribute-page/)
+- [Survey Form](https://ann-dev.github.io/fcc-projects/fcc-survey-form/)
+- [Product Landing Page](https://ann-dev.github.io/fcc-projects/fcc-product-landing-page/)
+- [Technical Documentation Page](https://ann-dev.github.io/fcc-projects/fcc-technical-doc-page)
+- [Personal Portfolio Page](https://ann-dev.github.io/fcc-projects/fcc-portfolio/)
 
 ## JavaScript Algorithms and Data Structures Projects - IN PROGRESS
 - Palindrome Checker
