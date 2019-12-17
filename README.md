@@ -8,15 +8,15 @@
 <h3>I. Responsive Web Design Projects</h3>
 
 <p>
-5 responsive websites made for FCC certification, made only with HTML & CSS. JS script is only for testing purposes.<br> Currently 4 of 5 websites need bug fixes and change styles/overall look. Any suggestions or fixes are welcome!</p>
-
-<p>
   <img alt="html badge" src="https://img.shields.io/badge/HTML5-orange?style=flat-square">
   <img alt="css badge" src="https://img.shields.io/badge/CSS3-blue?style=flat-square">
   <a href="https://www.freecodecamp.org/certification/merkund/responsive-web-design" target="_blank">
     <img alt="certificate badge" src="https://img.shields.io/badge/freeCodeCamp-certificate-brightgreen?&style=flat-square">
   </a>
 </p>
+
+<p>
+5 responsive websites made for FCC certification, made only with HTML & CSS. JS script is only for testing purposes.<br> Currently 4 of 5 websites need bug fixes and change styles/overall look. Any suggestions or fixes are welcome!</p>
 
 <ul>
   <li>Tribute Page <a href="https://ann-dev.github.io/fcc-projects/fcc-tribute-page/" target="_blank">[Link]</a></li>
@@ -29,13 +29,13 @@
 
 <h3>II. JavaScript Algorithms and Data Structures Projects</h3>
 
-<p>Currently in progress...</p>
 <p>
   <img alt="js label" src="https://img.shields.io/badge/JavaScript-yellow?style=flat-square">
   <a href="#" target="_blank">
     <img alt="certificate badge" src="https://img.shields.io/badge/freeCodeCamp-certificate-brightgreen?&style=flat-square">
   </a>
 </p>
+<p>Currently in progress...</p>
 
 <ul>
   <li>Palindrome Checker <a href="#" target="_blank">[Link]</a></li>
