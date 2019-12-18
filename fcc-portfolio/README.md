@@ -10,7 +10,7 @@
 <p align="center"><a href="https://codepen.io/merkund/pen/OdBPre" target="_blank">[LIVE PREVIEW]</a></p>
 
 <p align="center">
-  <img alt="website preview" src="https://www.site-shot.com/cached_image/4x-eTCGgEeqpaAJCrBEABA">
+  <img alt="website preview" src="https://www.site-shot.com/cached_image/aCTF0CHoEeq7AAJCrBEABA">
 </p>
 
 <h2>Main features:</h2>
