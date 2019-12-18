@@ -1,10 +1,10 @@
 <h1 align="center">fcc Product Landing Page</h1>
 
 <p align="center">
-  <img alt="website preview" src="https://www.site-shot.com/cached_image/OFVbvCGiEeqS-wJCrBEABA">
+  <img alt="website preview" src="https://www.site-shot.com/cached_image/M81EVCHqEeq_MwJCrBEABA">
 </p>
 
-<p align="center"><a href="https://codepen.io/merkund/pen/MLBzbd" target="_blank">[LIVE PREVIEW]</a></p>
+<p align="center"><a href="https://ann-dev.github.io/fcc-projects/fcc-product-landing-page/" target="_blank">[LIVE PREVIEW]</a></p>
 
 <p align="center">Product Landing Page made for FCC Responsive Web Design Certificate.</p>
 
