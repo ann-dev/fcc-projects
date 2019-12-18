@@ -7,7 +7,7 @@
   <img alt="css badge" src="https://img.shields.io/badge/CSS3-blue?style=flat-square">
 </p>
 
-<p align="center"><a href="https://codepen.io/merkund/pen/OdBPre" target="_blank">[LIVE PREVIEW]</a></p>
+<p align="center"><a href="https://ann-dev.github.io/fcc-projects/fcc-portfolio/" target="_blank">[LIVE PREVIEW]</a></p>
 
 <p align="center">
   <img alt="website preview" src="https://www.site-shot.com/cached_image/aCTF0CHoEeq7AAJCrBEABA">
