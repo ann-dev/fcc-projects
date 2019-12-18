@@ -15,6 +15,7 @@
 <p>
   <img alt="html badge" src="https://img.shields.io/badge/HTML5-orange?style=flat-square">
   <img alt="css badge" src="https://img.shields.io/badge/CSS3-blue?style=flat-square">
+  <img alt="bootstrap badge" src="https://img.shields.io/badge/Bootstrap-563D7C?style=flat-square">
   <a href="https://www.freecodecamp.org/certification/merkund/responsive-web-design" target="_blank">
     <img alt="certificate badge" src="https://img.shields.io/badge/freeCodeCamp-certificate-brightgreen?&style=flat-square">
   </a>
