@@ -1,10 +1,10 @@
 <h1 align="center">fcc Survey Form</h1>
 
 <p align="center">
-  <img alt="website preview" src="https://www.site-shot.com/cached_image/PxlfoCGkEeqZ2gJCrBEABA">
+  <img alt="website preview" src="https://www.site-shot.com/cached_image/ar6x3iHtEeq4sAJCrBEABA">
 </p>
 
-<p align="center"><a href="https://codepen.io/merkund/full/RvMNeK" target="_blank">[LIVE PREVIEW]</a></p>
+<p align="center"><a href="https://ann-dev.github.io/fcc-projects/fcc-survey-form/" target="_blank">[LIVE PREVIEW]</a></p>
 
 <p align="center">Survey form made for FreeCodeCamp's Responsive Web Design Certification.</p>
 
