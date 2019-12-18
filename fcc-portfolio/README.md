@@ -1,17 +1,17 @@
 <h1 align="center">freeCodeCamp Portfolio</h1>
 
-<p align="center">
-  <img alt="website preview" src="https://www.site-shot.com/cached_image/4x-eTCGgEeqpaAJCrBEABA">
-</p>
-
-<p align="center"><a href="https://codepen.io/merkund/pen/OdBPre" target="_blank">[LIVE PREVIEW]</a></p>
-
 <p align="center">Portfolio Website made for FCC Responsive Web Design Certificate.</p>
 
 <p align="center">
   <img alt="html badge" src="https://img.shields.io/badge/HTML5-orange?style=flat-square">
   <img alt="css badge" src="https://img.shields.io/badge/CSS3-blue?style=flat-square">
 </p>
+
+<p align="center">
+  <img alt="website preview" src="https://www.site-shot.com/cached_image/4x-eTCGgEeqpaAJCrBEABA">
+</p>
+
+<p align="center"><a href="https://codepen.io/merkund/pen/OdBPre" target="_blank">[LIVE PREVIEW]</a></p>
 
 <h2>Main features:</h2>
 <h4>v 1.0</h4>
