@@ -20,6 +20,12 @@
   <li>Projects' grid</li>
 </ul>
 
+<h2>Planned features</h2>
+<ul>
+  <li>Remove 100vh sections</li>
+  <li>Use Bootstrap for a new version</li>
+</ul>
+
 <h2>Credits:</h2>
 <ul>
   <li>Icons - made by<a href="https://www.flaticon.com/authors/dave-gandy" target="_blank"> Dave Gandy </a>and <a href="https://www.flaticon.com/authors/freepik" target="_blank">Freepik</a></li>
