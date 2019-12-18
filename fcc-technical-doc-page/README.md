@@ -18,7 +18,3 @@
 <ul>
   <li>Sidebar leading to diffrent sections of the page</li>
 </ul>
-
-<h2>Credits:</h2>
-<ul>
-  <li><a href="https://www.freepik.com/" target="_blank">Freepik Icons</a></li>
