@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:500,700");
+/* COLORS */
+/* FONTS */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* STYLES */
+html,
+body {
+  height: 100vh;
+}
+
+body,
+#survey-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+}
+
+input,
+textarea {
+  font-family: Raleway, sans-serif;
+}
+
+/* MAIN STYLES */
+body {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f7f7f7;
+  background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%2372d0d9' fill-opacity='0.18'%3E%3Cpath d='M50 50c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10zM10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10S0 25.523 0 20s4.477-10 10-10zm10 8c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm40 40c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-size: 5%;
+  font-family: "Raleway", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  text-align: center;
+  /* FORM STYLING */
+}
+
+body main {
+  background: white;
+  border: 12px solid #72d0d9;
+  -webkit-box-shadow: 0 0 50px 5px rgba(114, 208, 217, 0.6);
+          box-shadow: 0 0 50px 5px rgba(114, 208, 217, 0.6);
+  border-radius: 50px;
+  color: #555555;
+  height: 600px;
+  overflow: auto;
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+  padding: 20px 0;
+  width: 500px;
+  /* CLASSES */
+  /* IDS */
+}
+
+body main::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+body main svg {
+  margin-bottom: -32px;
+}
+
+body main hr {
+  border: 1.5px dashed #b8e7ec;
+  width: 100%;
+}
+
+body main p {
+  font-size: 15px;
+}
+
+body main span {
+  color: #72d0d9;
+  font-size: 25px;
+}
+
+body main h1 {
+  font-size: 34px;
+}
+
+body main a {
+  text-decoration: none;
+}
+
+body main strong {
+  color: #72d0d9;
+  font-size: 18px;
+}
+
+body main strong:hover {
+  border-bottom: 2px solid #72d0d9;
+}
+
+body main label {
+  font-size: 16px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+body main fieldset {
+  padding: 15px;
+}
+
+body main fieldset label {
+  font-weight: 500;
+}
+
+body main select,
+body main fieldset,
+body main textarea,
+body main input[type="submit"] {
+  border: 2px solid #72d0d9;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+
+body main input {
+  border: none;
+  border-bottom: 2px solid #72d0d9;
+  padding-bottom: 5px;
+}
+
+body main input[type="checkbox"] + label {
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+body main input,
+body main select,
+body main fieldset label,
+body main textarea {
+  font-size: 14px;
+}
+
+body main select {
+  background: white;
+  color: #555555;
+}
+
+body main input[type="radio"] {
+  margin-left: 20px;
+}
+
+body main textarea {
+  margin-bottom: 30px;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+
+body main input[type="submit"] {
+  background: #72d0d9;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-bottom: 5px;
+  padding: 10px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+body main input[type="submit"]:hover {
+  background: white;
+  border: 2px solid #72d0d9;
+}
+
+body main .scroll {
+  margin-top: -10px;
+  padding-bottom: 20px;
+}
+
+body main .terms {
+  font-size: 12px;
+  text-align: center;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+body main .terms a {
+  color: #555555;
+}
+
+body main .terms a:hover {
+  color: #72d0d9;
+  cursor: pointer;
+}
+
+body main #name-label {
+  padding-top: 30px;
+}
+
+body main .desc p,
+body main #survey-form {
+  padding: 15px 40px;
+}
+
+body main #survey-form {
+  text-align: left;
+}
+
+body main #name,
+body main #email,
+body main #number {
+  display: inline-block;
+  margin: 10px 0;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+body main #radio-1 {
+  margin-left: 0;
+}
+/*# sourceMappingURL=style.css.map */
