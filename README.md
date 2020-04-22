@@ -6,9 +6,9 @@
   <img alt="last commit badge" src="https://img.shields.io/github/last-commit/ann-dev/fcc-projects?style=flat-square">
 </p>
 
-<h2 align="center">I. Responsive Web Design Projects</h2>
+<h2>I. Responsive Web Design Projects</h2>
 
-<p align="center">
+<p>
   <a href="https://www.freecodecamp.org/certification/merkund/responsive-web-design" target="_blank">
     <img alt="certificate badge" src="https://img.shields.io/badge/freeCodeCamp-certificate-brightgreen?&style=flat-square">
   </a>
@@ -24,16 +24,16 @@
 
 <h4>Links:</h4>
 <ul>
-  <li>Tribute Page <a href="https://ann-dev.github.io/fcc-projects/fcc-tribute-page/" target="_blank">[Link]</a></li>
-  <li>Survey Form <a href="https://ann-dev.github.io/fcc-projects/fcc-survey-form/">[Link]</a></li>
-  <li>Product Landing Page <a href="https://ann-dev.github.io/fcc-projects/fcc-product-landing-page/">[Link]</a></li>
-  <li>Technical Documentation Page <a href="https://ann-dev.github.io/fcc-projects/fcc-technical-doc-page">[Link]</a></li>
-  <li>Personal Portfolio Page <a href="https://ann-dev.github.io/fcc-projects/fcc-portfolio/">[Link]</a></li>
+  <li>Tribute Page <a href="https://ann-dev.github.io/fcc-projects/fcc-tribute-page/" target="_blank">[Repo]</a></li>
+  <li>Survey Form <a href="https://ann-dev.github.io/fcc-projects/fcc-survey-form/">[Repo]</a></li>
+  <li>Product Landing Page <a href="https://ann-dev.github.io/fcc-projects/fcc-product-landing-page/">[Repo]</a></li>
+  <li>Technical Documentation Page <a href="https://ann-dev.github.io/fcc-projects/fcc-technical-doc-page">[Repo]</a></li>
+  <li>Personal Portfolio Page <a href="https://ann-dev.github.io/fcc-projects/fcc-portfolio/">[Repo]</a></li>
 </ul>
 
-<h2 align="center">II. JavaScript Algorithms and Data Structures Projects</h2>
+<h2>II. JavaScript Algorithms and Data Structures Projects</h2>
 
-<p align="center">
+<p>
    <a href="#" target="_blank">
     <img alt="certificate badge" src="https://img.shields.io/badge/freeCodeCamp-certificate-brightgreen?&style=flat-square">
   </a>
@@ -44,9 +44,9 @@
 
 <h4>Links:</h4>
 <ul>
-  <li>Palindrome Checker <a href="#" target="_blank">[Link]</a></li>
-  <li>Roman Numeral Converter <a href="#">[Link]</a></li>
-  <li>Caesars Cipher <a href="#">[Link]</a></li>
-  <li>Telephone Number Validator <a href="#">[Link]</a></li>
-  <li>Cash Register <a href="#">[Link]</a></li>
+  <li>Palindrome Checker <a href="#" target="_blank">[Repo]</a></li>
+  <li>Roman Numeral Converter <a href="#">[Repo]</a></li>
+  <li>Caesars Cipher <a href="#">[Repo]</a></li>
+  <li>Telephone Number Validator <a href="#">[Repo]</a></li>
+  <li>Cash Register <a href="#">[Repo]</a></li>
 </ul>
