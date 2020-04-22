@@ -4,21 +4,22 @@
 
 <p align="center">
   <img alt="last commit badge" src="https://img.shields.io/github/last-commit/ann-dev/fcc-projects?style=flat-square">
-  <img alt="fork badge" src="https://img.shields.io/github/forks/ann-dev/fcc-projects?style=social">
 </p>
 
-<h2>I. Responsive Web Design Projects</h2>
+<h2 align="center">I. Responsive Web Design Projects</h2>
 
-<p>
-5 responsive websites made for FCC certification, made only with HTML & CSS. JS script is only for testing purposes.<br> Currently 4 of 5 websites need bug fixes and change styles/overall look. Any suggestions or fixes are welcome!</p>
-
-<p>
-  <img alt="html badge" src="https://img.shields.io/badge/HTML5-orange?style=flat-square">
-  <img alt="css badge" src="https://img.shields.io/badge/CSS3-blue?style=flat-square">
-  <img alt="bootstrap badge" src="https://img.shields.io/badge/Bootstrap-563D7C?style=flat-square">
+<p align="center">
   <a href="https://www.freecodecamp.org/certification/merkund/responsive-web-design" target="_blank">
     <img alt="certificate badge" src="https://img.shields.io/badge/freeCodeCamp-certificate-brightgreen?&style=flat-square">
   </a>
+  <img alt="html badge" src="https://img.shields.io/badge/HTML5-orange?style=flat-square">
+  <img alt="css badge" src="https://img.shields.io/badge/CSS3-blue?style=flat-square">
+  <img alt="bootstrap badge" src="https://img.shields.io/badge/Bootstrap-563D7C?style=flat-square">
+</p>
+
+<p>
+  5 responsive websites made for FCC certification, made only with HTML & CSS. JS script is only for testing purposes.
+  <br> Currently 4 of 5 websites need bug fixes and change styles/overall look. Any suggestions or fixes are welcome!
 </p>
 
 <h4>Links:</h4>
@@ -30,18 +31,16 @@
   <li>Personal Portfolio Page <a href="https://ann-dev.github.io/fcc-projects/fcc-portfolio/">[Link]</a></li>
 </ul>
 
+<h2 align="center">II. JavaScript Algorithms and Data Structures Projects</h2>
 
-<h2>II. JavaScript Algorithms and Data Structures Projects</h2>
-
-<p>Currently in progress...</p>
-
-<p>
-  <img alt="js label" src="https://img.shields.io/badge/JavaScript-yellow?style=flat-square">
-  <a href="#" target="_blank">
+<p align="center">
+   <a href="#" target="_blank">
     <img alt="certificate badge" src="https://img.shields.io/badge/freeCodeCamp-certificate-brightgreen?&style=flat-square">
   </a>
+  <img alt="js label" src="https://img.shields.io/badge/JavaScript-yellow?style=flat-square">
 </p>
 
+<p>Currently in progress...</p>
 
 <h4>Links:</h4>
 <ul>
