@@ -24,11 +24,31 @@
 
 <h4>Links:</h4>
 <ul>
-  <li>Tribute Page <a href="https://ann-dev.github.io/fcc-projects/fcc-tribute-page/" target="_blank">[Repo]</a></li>
-  <li>Survey Form <a href="https://ann-dev.github.io/fcc-projects/fcc-survey-form/">[Repo]</a></li>
-  <li>Product Landing Page <a href="https://ann-dev.github.io/fcc-projects/fcc-product-landing-page/">[Repo]</a></li>
-  <li>Technical Documentation Page <a href="https://ann-dev.github.io/fcc-projects/fcc-technical-doc-page">[Repo]</a></li>
-  <li>Personal Portfolio Page <a href="https://ann-dev.github.io/fcc-projects/fcc-portfolio/">[Repo]</a></li>
+  <li>
+    Tribute Page 
+    <a href="https://ann-dev.github.io/fcc-projects/fcc-tribute-page/" target="_blank">[Live preview]</a>
+    <a href="https://github.com/ann-dev/fcc-projects/tree/master/fcc-tribute-page" target="_blank">[Code]</a>
+  </li>
+  <li>
+    Survey Form 
+    <a href="https://ann-dev.github.io/fcc-projects/fcc-survey-form/">[Live preview]</a>
+    <a href="https://github.com/ann-dev/fcc-projects/tree/master/fcc-survey-form" target="_blank">[Code]</a>
+  </li>
+  <li>
+    Product Landing Page 
+    <a href="https://ann-dev.github.io/fcc-projects/fcc-product-landing-page/">[Live preview]</a>
+    <a href="https://github.com/ann-dev/fcc-projects/tree/master/fcc-product-landing-page" target="_blank">[Code]</a>
+  </li>
+  <li>
+    Technical Documentation Page 
+    <a href="https://ann-dev.github.io/fcc-projects/fcc-technical-doc-page">[Live preview]</a>
+    <a href="https://github.com/ann-dev/fcc-projects/tree/master/fcc-technical-doc-page" target="_blank">[Code]</a>
+  </li>
+  <li>
+    Personal Portfolio Page 
+    <a href="https://ann-dev.github.io/fcc-projects/fcc-portfolio/">[Live preview]</a>
+    <a href="https://github.com/ann-dev/fcc-projects/tree/master/fcc-portfolio" target="_blank">[Code]</a>
+  </li>
 </ul>
 
 <h2>II. JavaScript Algorithms and Data Structures Projects</h2>
@@ -44,9 +64,9 @@
 
 <h4>Links:</h4>
 <ul>
-  <li>Palindrome Checker <a href="#" target="_blank">[Repo]</a></li>
-  <li>Roman Numeral Converter <a href="#">[Repo]</a></li>
-  <li>Caesars Cipher <a href="#">[Repo]</a></li>
-  <li>Telephone Number Validator <a href="#">[Repo]</a></li>
-  <li>Cash Register <a href="#">[Repo]</a></li>
+  <li>Palindrome Checker <a href="#" target="_blank">[Code]</a></li>
+  <li>Roman Numeral Converter <a href="#">[Code]</a></li>
+  <li>Caesars Cipher <a href="#">[Code]</a></li>
+  <li>Telephone Number Validator <a href="#">[Code]</a></li>
+  <li>Cash Register <a href="#">[Code]</a></li>
 </ul>
